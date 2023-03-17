@@ -1,12 +1,11 @@
 export enum RabbitMQ {
-    
-    PassengerQueue = 'passenger',
-    
+    UserQueue = 'users',
   }
-  export enum PassengerMSG {
-    INSERTAR = 'CREAR_PASAJERO',
-    TODOS = 'TODOS_LOS_PASAJEROS',
-    UNO = 'UN_PASAJERO',
-    ACTUALIZAR = 'ACTUALIZA_PASAJERO',
-    ELIMINAR = 'ELIMINAR_PASAJERO',
+  export enum UserMSG {
+    INSERTAR = 'CREAR_USUARIO',
+    TODOS = 'TODOS_LOS_USUARIOS',
+    UNO = 'UN_USUARIO',
+    ACTUALIZAR = 'ACTUALIZA_USUARIO',
+    ELIMINAR = 'ELIMINAR_USUARIO',
+    VALIDAR_USAURIO = 'VALIDAR_USAURIO',
   }
